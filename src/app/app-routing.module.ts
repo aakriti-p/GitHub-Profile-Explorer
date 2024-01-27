@@ -7,11 +7,11 @@ import { UserDetailsComponent } from './components/user-details/user-details.com
 const routes: Routes = [
   {
     path: '',
-    component: HomeComponent
+    component: SearchPageComponent
   },
   {
-    path: 'search',
-    component: SearchPageComponent
+    path: 'history',
+    component: UserDetailsComponent
   },
   {
     path: 'user/:id',
